@@ -1,35 +1,20 @@
-# test
+# Тестовое задание для ф. Рабочие Руки
 
-This template should help get you started developing with Vue 3 in Vite.
+## Деплой приложения
 
-## Recommended IDE Setup
+[https://ivan-gav.github.io/rruki-test](https://ivan-gav.github.io/rruki-test/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+> Успел не все. Не сделал ввод даты в поле и не записал видео. Извиняюсь, не хватило времени.
 
-## Customize configuration
+## Задание
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[n1creator.com/whtestjs.html](https://n1creator.com/whtestjs.html)
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1.  Нужно сделать возможность переключения месяцев, а так же выбора конкретной даты при клике.
+2.  На клик по дню повесить событие, которое будет возвращать выбранную дату.
+3.  При инициализации компонент может принимать свойство даты в формате "год-месяц-день" и переключать текущий месяц и день на нее. Если дата не передана, то берем текущий день.
+4.  Реализовать возможность смены языка (название месяцев, дней недели).
+5.  Предлагается выполнить задание, при этом сам процесс выполнения записать на видео. Можно использовать https://obsproject.com/ru или любой другой софт для записи видео с рабочего стола. Монтажом видео заниматься не нужно, достаточно оригинальных записей и любое количество видеофайлов.
+6.  Никаких ограничений в использовании справочных материалов при выполнении не накладывается (google, stackoverflow и т.д.).
+7.  Код должен быть выложен на github.
+8.  Видеозаписи должны быть выложены на любое бесплатное хранилище файлов (google, mailru, yandex).
